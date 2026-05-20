@@ -652,15 +652,28 @@
   }
 
   .branding-title {
-    margin-bottom: 56px;
+    margin-bottom: 48px;
   }
 
   .branding-gallery {
-    grid-template-columns: 1fr;
-    gap: 24px;
+    width: 100vw;
+    margin-left: calc((100vw - 100%) / -2);
+    overflow: hidden;
+    padding: 18px 0 28px;
+  }
+
+  .branding-track {
+    gap: 20px;
+    animation-duration: 24s;
   }
 
   .branding-img {
+    border-radius: 18px;
+  }
+
+  .branding-img img {
+    width: auto;
+    height: 170px;
     border-radius: 18px;
   }
 
