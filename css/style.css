@@ -11,7 +11,7 @@
   width: 100%;
   height: 72px;
   z-index: 100;
-  background-color: rgba(0, 0, 0, 0.92);
+  background-color: rgba(0, 0, 0, 1);
 }
 
 .header-inner {
@@ -37,7 +37,7 @@
   position: relative;
   color: var(--color-white);
   font-size: 15px;
-  font-weight: var(--weight-medium);
+  font-weight: var(--weight-semibold);
 }
 
 .menu-list a::after {

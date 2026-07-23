@@ -66,8 +66,7 @@ function typeEffect() {
   const currentWord = words[wordIndex];
 
   if (!isDeleting) {
-    typingWord.textContent =
-      currentWord.substring(0, charIndex + 1);
+    typingWord.textContent = currentWord.substring(0, charIndex + 1);
 
     charIndex++;
 
@@ -77,8 +76,7 @@ function typeEffect() {
       return;
     }
   } else {
-    typingWord.textContent =
-      currentWord.substring(0, charIndex - 1);
+    typingWord.textContent = currentWord.substring(0, charIndex - 1);
 
     charIndex--;
 
